@@ -1,14 +1,15 @@
 #TEST CODE FOR GITHUB EXERCISE
+#Edited by Katie Beth Nichols
 
 
 #Sentiment Analysis Tutorial: Jane Austen
 # March 31, 2019
 #Exercises from Text Mining with R A Tidy Approach 
 #By Julia Silge and David Robinson  2018-12-21
-#
+
 #https://www.tidytextmining.com/ 
 
-
+library(dplyr)
 library(tidytext)
 sentiments
 
@@ -23,7 +24,7 @@ get_sentiments("nrc")
 
 
 #Sentiment analysis via inner join
-#
+
 #USING PREP_DATA.R AS TEMPLATE
 library(readr)
 library(devtools)
