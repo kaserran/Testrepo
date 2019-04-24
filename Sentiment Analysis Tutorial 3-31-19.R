@@ -32,12 +32,7 @@ sensesensibility <- read_lines("http://www.gutenberg.org/cache/epub/161/pg161.tx
 sensesensibility <- sensesensibility[1:(length(sensesensibility) - 370)]
 sensesensibility <- sensesensibility[!is.na(sensesensibility)]
 #
-#Look at what we loaded: a book
-http://www.gutenberg.org/cache/epub/161/pg161.txt
-#
-library(janeaustenr)
-library(dplyr)
-library(stringr)
+please give us good grades
 
 original_books <- austen_books() %>%
   group_by(book) %>%
