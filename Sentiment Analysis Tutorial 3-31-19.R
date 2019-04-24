@@ -1,3 +1,6 @@
+#TEST CODE FOR GITHUB EXERCISE
+
+
 #Sentiment Analysis Tutorial: Jane Austen
 # March 31, 2019
 #Exercises from Text Mining with R A Tidy Approach 
